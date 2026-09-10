@@ -97,7 +97,7 @@ A **synthetic, Bangladesh-context e-commerce dataset** was used (no suitable rea
 A structured audit was run on all four source tables **before** any cleaning or modeling, to confirm structure, coverage, and reliability.
 
 <!-- PLACEHOLDER: data audit summary screenshot — assets/images/data-audit-summary.png -->
-![Data Audit Summary](assets/images/data-audit-summary.png)
+<img src="Snaps/Data-Audit-Summary.JPG" alt="" width="75%">
 
 | Audit Area | Result | Status |
 |---|---|---|
@@ -128,7 +128,8 @@ An original backup of the raw dataset was preserved separately for traceability 
 - **Data types & business rules** — reviewed and corrected; `Is_Return` confirmed as a consistent TRUE/FALSE indicator field.
 
 <!-- PLACEHOLDER: before/after data cleaning screenshot — assets/images/data-cleaning-before-after.png -->
-![Data Cleaning Before/After](assets/images/data-cleaning-before-after.png)
+<img src="Snaps/raw-messy-data.JPG" alt="" width="50%">
+<img src="Snaps/raw-cleaned-data.JPG" alt="" width="50%">
 
 **Status: ✅ DATA CLEANING COMPLETED** — no nulls, blank/empty-string issues, or exact duplicates remained; all required calculated fields were in place; the fact table was analysis-ready with relationships and business validations preserved.
 
@@ -149,7 +150,7 @@ The cleaned dataset was transformed into a **Star Schema**: a central `Fact_Sale
 ```
 
 <!-- PLACEHOLDER: Power BI model view / ERD screenshot — assets/images/star-schema-model.png -->
-![Star Schema Model](assets/images/star-schema-model.png)
+<img src="Snaps/data-model.JPG" alt="" width="75%">
 
 - 1-to-many (1:*) relationships — each dimension filters `Fact_Sales`
 - Primary/foreign keys verified, **no orphan foreign keys**, no unnecessary many-to-many relationships
@@ -200,7 +201,7 @@ Supporting measures: **Product Contribution %**, **Regional Contribution %**.
 > **Key insight:** 2024 → 2025 — Revenue ↑ 20.00%, Profit ↑ only 12.08%, Margin ↓ 0.65 pp. Revenue growth is **not** fully translating into profitability.
 
 <!-- PLACEHOLDER: Revenue vs Profit trend line chart — assets/images/revenue-profit-trend.png -->
-![Revenue vs Profit Trend](assets/images/revenue-profit-trend.png)
+<img src="Snaps/revenue-profit-trend.JPG" alt="" width="50%">
 
 ### Root Cause — Cost Pressure
 
@@ -221,6 +222,7 @@ Supporting measures: **Product Contribution %**, **Regional Contribution %**.
 
 <!-- PLACEHOLDER: Category revenue vs margin chart — assets/images/category-profitability.png -->
 ![Category Profitability](assets/images/category-profitability.png)
+<img src="Snaps/revenue-profit-trend.JPG" alt="" width="50%">
 
 ### Regional Profitability
 
@@ -234,7 +236,7 @@ Supporting measures: **Product Contribution %**, **Regional Contribution %**.
 | Sylhet | 5.79% | 10.60% | High-margin opportunity |
 
 <!-- PLACEHOLDER: Regional revenue/margin map or bar chart — assets/images/regional-performance.png -->
-![Regional Performance](assets/images/regional-performance.png)
+<img src="Snaps/geographical-revenue.JPG" alt="" width="50%">
 
 ### May 2023 — Margin Deterioration Deep Dive
 
@@ -257,6 +259,7 @@ Two-page Power BI dashboard: **Executive Overview** and **Profitability Drivers 
 
 <!-- PLACEHOLDER: Executive Overview dashboard page screenshot — assets/images/dashboard-executive-overview.png -->
 ![Executive Overview](assets/images/dashboard-executive-overview.png)
+<img src="Snaps/dashboard - page 1.JPG" alt="" width="50%">
 
 | KPI | Result |
 |---|---|
@@ -274,6 +277,7 @@ Two-page Power BI dashboard: **Executive Overview** and **Profitability Drivers 
 
 <!-- PLACEHOLDER: Profitability Drivers & Customer Behaviour dashboard page screenshot — assets/images/dashboard-profitability-drivers.png -->
 ![Profitability Drivers & Customer Behaviour](assets/images/dashboard-profitability-drivers.png)
+<img src="Snaps/dashboard - page 2.JPG" alt="" width="50%">
 
 | KPI | Result |
 |---|---|
