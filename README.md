@@ -221,7 +221,7 @@ Supporting measures: **Product Contribution %**, **Regional Contribution %**.
 > Electronics drives **scale**, not **margin efficiency**. High revenue ≠ high profitability.
 
 <!-- PLACEHOLDER: Category revenue vs margin chart — assets/images/category-profitability.png -->
-![Category Profitability](assets/images/category-profitability.png)
+
 <img src="Snaps/Catagorical Performance.JPG" alt="" width="50%">
 
 ### Regional Profitability
@@ -258,7 +258,6 @@ Two-page Power BI dashboard: **Executive Overview** and **Profitability Drivers 
 ### Page 1 — Executive Overview
 
 <!-- PLACEHOLDER: Executive Overview dashboard page screenshot — assets/images/dashboard-executive-overview.png -->
-![Executive Overview](assets/images/dashboard-executive-overview.png)
 <img src="Snaps/dashboard - page 1.JPG" alt="" width="50%">
 
 | KPI | Result |
@@ -276,7 +275,6 @@ Two-page Power BI dashboard: **Executive Overview** and **Profitability Drivers 
 ### Page 2 — Profitability Drivers & Customer Behaviour
 
 <!-- PLACEHOLDER: Profitability Drivers & Customer Behaviour dashboard page screenshot — assets/images/dashboard-profitability-drivers.png -->
-![Profitability Drivers & Customer Behaviour](assets/images/dashboard-profitability-drivers.png)
 <img src="Snaps/dashboard - page 2.JPG" alt="" width="50%">
 
 | KPI | Result |
