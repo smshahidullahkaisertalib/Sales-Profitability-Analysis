@@ -222,7 +222,7 @@ Supporting measures: **Product Contribution %**, **Regional Contribution %**.
 
 <!-- PLACEHOLDER: Category revenue vs margin chart — assets/images/category-profitability.png -->
 ![Category Profitability](assets/images/category-profitability.png)
-<img src="Snaps/revenue-profit-trend.JPG" alt="" width="50%">
+<img src="Snaps/Catagorical Performance.JPG" alt="" width="50%">
 
 ### Regional Profitability
 
