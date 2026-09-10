@@ -3,7 +3,7 @@
 **End-to-end data analysis project** — from raw data audit to a fully modeled, two-page Power BI dashboard — analyzing an e-commerce company's revenue, cost, profit, and margin performance to uncover where profitability is truly being created or lost.
 
 <!-- PLACEHOLDER: wide banner/cover image — assets/images/banner.png -->
-Snaps/dashboard - page 1.JPG
+<img src="Snaps/dashboard - page 1.JPG" alt="Dashboard Page 1" width="100%">
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-completed-brightgreen">
